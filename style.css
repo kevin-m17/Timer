@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background:brown;
+    width:400px;
+    height: 180px;
+    margin: 100px auto;
+    padding:40px;
+}
+
+.timer {
+    background: gray;
+    font-size: 50px;
+    text-align:center; 
+}
+
+#startButton {
+    position: relative;
+    background: black;
+    color: yellow;
+    top:20px;
+    padding:15px;
+}
+
+#endButton {
+    position: relative;
+    background: black;
+    color: yellow;
+    top:20px;
+    padding:15px;
+    width: 20%;
+    left: 190px;
+}
+
+/* .main < .timer {
+    background:gray;
+
+} */
